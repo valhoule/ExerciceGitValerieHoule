@@ -9,3 +9,83 @@ body{
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+/*----DÉBUT CODE POUR LA BRANCHE NAV----*/
+body {
+	background-color: #F4F4F3;
+	color: #333;
+	line-height: 1.4;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.3rem;
+}
+
+header{
+	text-align: center;
+	background-color: #C94629;
+}
+
+.logo{
+	margin: 25px 0;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+header img{
+	border-radius: 30%;
+	width: 100%;	
+}
+
+/* Nav */
+nav{
+	margin: 30px 0;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+nav a{
+	display: inline-block;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 4px;
+	border: 1px solid #C94629;
+	color: #F4F4F3;
+}
+
+nav a:hover{
+	background-color: #c28576;
+}
+
+.btn-commande{
+	background-color: #171C29;
+	border-color: #C94629;
+}
+
+.btn-commande:hover, .btn-commander:hover{
+	background-color: #414246;
+}
+
+.btn-commander{
+	display: inline-block;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 4px;
+	background-color: #171C29;
+	color: #F4F4F3;
+}
+
+.actuel{
+	border-color: #F9B200;
+}
+
+.flex-between{
+	display: flex;
+	justify-content: space-between;	
+}
+
+.align-center{
+	align-items: center;
+}
+/*----FIN CODE POUR LA BRANCHE NAV----*/
